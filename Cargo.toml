@@ -20,7 +20,7 @@ async-std-runtime = ["async-std", "async-tls", "async-tungstenite/async-std-runt
 [dependencies]
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
-async-tungstenite = "0.17"
+async-tungstenite = "0.19.0"
 futures = "0.3"
 uuid = { version ="1.0", features = ["serde", "v4"]}
 url = "2.1"
